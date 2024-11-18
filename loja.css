@@ -1,0 +1,114 @@
+/* Reseta estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: #d2ecfd;
+}
+
+.header {
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20240801/pngtree-blue-mandala-pattern-background-image_16123355.jpg');
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    text-shadow: 0 0 30px rgb(5, 12, 141);
+}
+
+.header h1 {
+    font-size: 80px;
+}
+
+
+.banner {
+    background: url('banner.jpg') no-repeat center/cover;
+    color: #1446b0;
+    text-align: center;
+    padding: 5% 2%;
+    text-decoration:overline
+}
+
+.banner h2 {
+    font-size: 250%;
+    margin-bottom: 1%;
+}
+
+/* Produtos */
+.produtos {
+    padding: 1rem;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.produtos h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.product-card {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.product-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-card p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.product-card button {
+    background-color: #1445b0a3;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.footer {
+    background-color: #1445b02c;
+    color: #fff;
+    text-align: center;
+    padding: 6rem 0;
+    height: 100px;
+
+}
+
+.footer .social a {
+    color: #1446b0;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.footer .social a:hover {
+    text-decoration: underline;
+}
